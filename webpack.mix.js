@@ -10,6 +10,6 @@ let mix = require('laravel-mix');
  | file for the application as well as bundling up all the JS files.
  |
  */
-
-mix.js('resources/assets/js/app.js', 'public/js').extract(['vue', 'axios', 'lodash', 'jquery'])
+//.extract(['vue', 'axios', 'lodash', 'jquery'])
+mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');

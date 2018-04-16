@@ -17,14 +17,14 @@
 <body>
     <div id="app">
         @include('partials.main-nav')
-        
+
         <main class="py-4">
             @yield('content')
         </main>
-        
+
     </div>
-<script src="{{ asset('js/vendor.js') }}"></script>
-<script src="{{ asset('js/manifest.js') }}"></script>
+{{-- <script src="{{ asset('js/vendor.js') }}"></script>
+<script src="{{ asset('js/manifest.js') }}"></script> --}}
 <script src="{{ asset('js/app.js') }}"></script>
 @yield('script')
 </body>
