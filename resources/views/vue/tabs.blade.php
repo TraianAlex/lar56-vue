@@ -52,7 +52,9 @@ Vue.component('tabs', {
 });
 
 Vue.component('tab', {
-    template: `<div v-show="isActive"><slot></slot></div>`,
+    template: `<div v-show="isActive">
+                    <slot></slot>
+                </div>`,
 
     props: {
         name: { required: true },

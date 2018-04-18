@@ -16,10 +16,8 @@
     </div>
 </template>
 <script>
-    import Form from './../form.es6.js';
-    
     export default {
-    
+
     data() {
         return {
             form: new Form({
@@ -28,7 +26,7 @@
             })
         };
     },
-    
+
     methods: {
         onSubmit(){
             this.form.post('/projects')

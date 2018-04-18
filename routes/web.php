@@ -27,3 +27,6 @@ Route::get('skills', function(){
 
 Route::get('projects/create', 'ProjectsController@create');
 Route::post('projects', 'ProjectsController@store');
+
+Route::get('/statuses', 'StatusesController@index');
+Route::post('/statuses', 'StatusesController@store');

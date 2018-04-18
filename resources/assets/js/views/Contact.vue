@@ -19,7 +19,7 @@
 
         data(){
           return {
-              title: 'Example Component',
+              title: 'Contact Component',
               body: 'I\'m an example component.'
           }
         },

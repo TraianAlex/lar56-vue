@@ -54,3 +54,10 @@ if (token) {
 //     encrypted: true
 // });
 window.toastr = require('./toastr');
+
+import moment from 'moment';
+import Form from './form.es6';
+
+window.moment = moment;
+window.Form = Form;
+

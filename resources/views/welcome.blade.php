@@ -5,11 +5,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                   <example-component></example-component>
+
+                   @include('partials.nav-vue')
+                   <router-view></router-view>
                 </div>
-
-                    <to-do></to-do>
-
+                    {{-- <to-do></to-do> --}}
             </div>
         </div>
 </div>

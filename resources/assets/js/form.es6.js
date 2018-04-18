@@ -96,7 +96,7 @@ export default class Form {
      */
     onSuccess(response){
         //alert(response.data.message);
-        alert(response.message); // temporary
+        //alert(response.body); // temporary
         //this.errors.clear();
         this.reset();
     }
